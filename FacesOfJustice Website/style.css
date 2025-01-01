@@ -1,0 +1,311 @@
+:root {
+  --darkestblue: rgb(16, 27, 41) ;
+  --darkblue: rgb(29, 38, 57) ;
+  --blue : rgb(70, 89, 116) ;
+  --lightblue : rgb(123, 140, 166) ;
+  --newgrey : rgb(214, 214, 214) ;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
+}
+
+a:hover {
+  color: var(--lightblue);
+}
+
+.bottom {
+  padding-bottom: 100px
+}
+
+/* 
+😍🌈 COLOR PALLETTE 🌈😍
+
+darkest blue : rgb(16, 27, 41) 
+dark blue : rgb(29, 38, 57) 
+blue : rgb(70, 89, 116) 
+greyish blue : rgb(123, 140, 166) 
+grey : rgb(254, 225, 221) 
+
+*/
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14pt;
+  color : var(--blue)
+  /*background-color: darkestblue;*/
+}
+
+/* HEADINGS */
+
+h1 {
+  text-align : center; 
+  padding-top: 10px;
+  color: white;
+  font-size: 60pt
+}
+
+h2 {
+  font-size: 3em;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+}
+
+h3 {
+  text-align : center; 
+  font-size: 2em;
+  color: #778DA9;
+  padding-top: -100px;
+  margin-left: -100;
+  margin-right: -100;
+}
+
+h4 {
+  text-align: center;
+  color: #596b82;
+  font-size: 20pt;
+  padding-top: 5px;
+}
+
+/*
+h5 {
+  text-align : right; 
+  padding-left: 27%;
+  padding-right: 25%;
+  margin-top: 5%;
+  color : var(--grey)
+  text-align: center;
+  color: #596b82;
+  padding-top: 50px;
+}
+*/
+
+h3.creators {
+  text-align : center; 
+  margin-top: 10px;
+}
+
+cl {
+  margin-right: 100%;
+}
+
+
+p {
+  padding-left: 40;
+  padding-right: 40;
+}
+
+a {
+  text-decoration: none;
+  color: var(--newgrey);
+}
+
+a.dark {
+  color: var(--blue);
+}
+
+a.dark:hover {
+  color: var(--newgrey);
+}
+
+/* NAV BAR */
+
+.nav {
+  position: sticky;
+  list-style-type: none;
+  background-color: #465974;
+  right: 0;
+  height: 100px;
+  padding: 20px;
+  align-items: center;
+  
+}
+
+.nav button {
+  right: 0;
+  border: none;
+  color: var(--newgrey);
+  font-size: 16pt;
+  font: 'Raleway', sans-serif;
+}
+
+
+.nav li {
+  font-size: 14pt;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+  /*align-items: right;*/
+}
+
+.nav:hover {
+  color: var(--lightblue);
+  cursor: pointer;
+}
+
+.nav-logo {
+  display: block;
+  float: left;
+  /* margin-top: 30px; */
+}
+
+
+li {
+  padding: 30px; 
+  font-size: 16pt;
+  color: var(--newgrey);
+}
+
+.nav-links {
+  float: right;
+  top: 0px;
+  /*align-items: right;
+  transform: translateX(-300%);*/
+  margin-right: 0%;
+  margin-top: 0%;
+  border: none;
+  background-color: var(--darkblue);
+  /*
+  display: flex;
+  flex-direction: column;
+  transform: translateX(100%);
+  justify-content: center;
+  transition: transform 0.5s ease-in;
+  */
+}
+
+
+/* 1. HOME SECTION */
+
+img.home {
+  width: 20%;
+  align-items: right;
+  margin-top: 40px;
+  margin-bottom: -20px;
+}
+
+div.index {
+  background-color: var(--darkestblue);
+  text-align: center;
+  color: var(--lightblue);
+}
+
+/* 2. STORIES SECTION */
+
+div.story {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.bold {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* 3. STATS SECTION */
+
+.section3 {
+  display: block;
+  padding: 5% 30% 10% 30%;
+}
+
+.section3 img {
+  margin: 35px 10px;
+}
+
+/* 4. SUPPORT SECTION */
+
+.section4 {
+  padding: 5% 30% 10% 30%;
+}
+
+.section4-text ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 50px;
+}
+
+.section4-text ul li p:first-of-type {
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+/* ABOUT SECTION */
+
+.section5 {
+  display: block;
+  padding-top: 5%;
+  padding: 20px;
+  scroll-padding-bottom: 10px;
+}
+
+.avni {
+  display: block;
+  margin: 0 auto;
+  width: 20%; /* You can adjust the width as needed */
+}
+
+h3.aboutus {
+  text-align : right; 
+  padding-bottom: -100px;
+  font-size: 40pt;
+}
+
+.cards {
+  display: inline-flex;
+}
+
+.card {
+  margin: 25px
+}
+
+.stories-img {
+  display: block;
+  margin: 0 auto;
+  width: 80%; /* You can adjust the width as needed */
+}
+
+div.row {
+  padding-left: 40px;
+  margin-right: -100px;
+}
+
+.column {
+  width: 50%;
+  /*text-align: left;*/
+  float: left;
+}
+
+img.column {
+  width: 225px;
+  height: 225px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+p.column {
+  font-size: 1.25em;
+  padding-right: 40px;
+  margin-bottom: 25px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*/i added a class which is min^
+
+/* SOLUTION SECTION */ 
+
+.solutions {
+  text-align: center;
+}
