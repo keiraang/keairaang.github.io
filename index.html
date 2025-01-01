@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Dessert Co.</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+  <!-- Import Raleway font from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <script src="script.js"></script>
+
+  <!--
+    Hi Scholars! \(^ v ^ )
+
+    FORK THIS REPL BEFORE EDITING. Please feel free to customize this page however you would like, and add/delete anything! This template is just a launch pad to get you started. Good luck on your project! It will be incredible <3
+  
+    Some suggested steps:
+    * Change the page name in the <title></title> tags above!
+    * Read through the comments to get a feel for the layout of the code (in this .html file and in the .css file!)
+    * Change the text first, add decorations after!
+
+    Other cool features:
+    A) Add a favicon:
+      1. Uncomment line 8 to see an example favicon appear on the browser tab!
+      2. Upload an image to the "assets1" folder (in the left bar)
+      3. Replace "cake-logo.png" with the name of your image!
+
+    B) Create a dropdown menu 🍔
+      1. Check out this resource! https://www.w3schools.com/css/css_dropdowns.asp
+  -->
+
+
+
+
+
+
+  
+  <!-- NAV BAR 
+  reference: https://www.w3schools.com/css/css_navbar.asp -->
+<nav>
+  <ul class="nav">
+
+    <div class="nav-logo">
+      <li style = 'width:100px; text-align:center; padding-top:25px; margin-left'><a href="./index.html">FACES OF JUSTICE</a></li>
+    </div>
+
+    <div>
+      <button popovertarget="my-popover" class='nav'>Menu</button>
+    </div>
+
+    <div popover id="my-popover" class="nav-links">
+      <li><a href="./stories.html">Stories</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./solutions.html">Solutions</a></li>
+    </div>
+
+  </ul>
+
+
+  
+  
+  <!-- 1. HOME SECTION STARTS HERE -->
+  <div style="background-color:var(--darkblue)" class ="index">
+    <img src = 'assets1/lgo.png' class = 'home'>
+    <h1>Faces of Justice</h1>
+    <h3>Reducing prejudice by analyzing the biases in tech</h3>
+    <br>
+  </div>
+  <br>
+  <div class = 'story'>
+    <!-- Class is only this way because i want the margins to be the same as the divs in story page -->
+  <p class = 'home'>Biases against people of color in facial recognition technology lead to higher rates of misidentification and wrongful arrests of minorities when used by law enforcement, exacerbating racial profiling and discrimination. This undermines trust in the justice system and disproportionately subjects minorities to legal and social consequences, further entrenching systemic inequities.</p>
+  <br>
+  <h4>How Artificial Intelligence is used in Criminal Justice</h4>
+  <p class = 'home'>	Artificial intelligence (AI) is increasingly being used as a part of the criminal justice system. From crime monitoring and prevention, to judicial proceedings themselves, police forces around the world use AI’s talents in pattern recognition to detect and predict criminal activity. Law enforcement agencies use AI for digital analysis, such as video and image recognition, which helps in identifying complex crime scenes and recognizing faces. Forensic labs employ AI to process low-quality DNA evidence, aiding in solving cold cases and exonerating wrongfully convicted individuals. AI-driven gunshot recognition systems and crime prediction algorithms enable law enforcement to respond proactively, potentially reducing crime rates by identifying patterns in financial records, social media data, and surveillance footage.
+  <br>
+  However, unease and controversy have grown along with its usage in criminal justice. AI systems are not foolproof; errors in facial recognition have led to wrongful arrests, and inaccuracies in DNA analysis can compromise investigations. Moreover, many have claimed AI algorithms are racist and discriminatory. AI’s biased outcomes in risk assessment tools used for bail and sentencing decisions could perpetuate systemic discrimination and lead to shockingly higher rates of wrongful convictions for people of color. The lack of transparency and accountability in AI decision-making processes from those in both the legal and technological worlds only helps worsen these issues. It is crucial for policymakers and engineers to address these ethical concerns to ensure equity in the system.</p>
+  <br>
+  <h4>How AI is biased against African Americans</h4>
+  <br>
+  <p class = 'home'>	One of the ways AI is being used in criminal justice is through risk assessments. These assessments predict how likely a defendant is to commit a crime in the future by outputting a score. AI uses the assessment answers, as well as the defendant's history and information, to determine this answer. Risk assessments are used in many different scenarios: in order to determine if a criminal is fit to be set free, to help figure out bail amounts, and even to give input on defendant freedom. In theory, this is an efficient solution to help make decisions. However, AI has been concluded to disproportionately rate African Americans at a higher risk to commit future crimes than any other race.
+  </p>
+    
+  <div>
+    <div class = 'row'>
+      <iframe width="300" height="225" src="https://lookerstudio.google.com/embed/reporting/d088f2a8-a86e-44cb-b1ca-ae550ff4cf18/page/Xqa4D" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+      <iframe width="300" height="225" padding-top="18" src="https://lookerstudio.google.com/embed/reporting/2902f080-fd38-44a3-8e7a-60b84380c9d3/page/X8Z4D" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+      <p class = 'column'>
+        The amount of African American people with certain decile scores compared to Caucasian people. 1 is the lowest risk and 10 is the highest risk. <br>
+        These graphs show that the COMPAS assessment tends to rate white people as a lower risk, while it doesn't do that for African American people.</p>
+    </div>
+  </div>
+<br>
+  <div>
+    <div class = 'row'>
+      <iframe width="400" height="320" src="https://lookerstudio.google.com/embed/reporting/45e9af61-3d53-4a90-aed4-a19eeaf7ca15/page/b8d4D" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+      <p class = 'column'>
+        Shows the percentage of offenders that went on to commit another crime after the COMPAS assessment, organized by race
+        While it is true, based on this chart, that 12% less Caucasian people went on to commit another crime compared to African American or Native American people, AI overestimates this fact for African Americans and underestimates it for white Americans when determining a defendant's risk score. The second page is a bar chart visualizing this.</p>
+      </div>
+    </div>
+    <br>
+    <div>
+      <div class = 'row'>
+        <iframe width="400" height="250" src="https://lookerstudio.google.com/embed/reporting/b75486dd-3bea-4093-a177-e2f031267286/page/rBe4D" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+        <iframe width="400" height="250" src="https://lookerstudio.google.com/embed/reporting/0f3815ba-7b6d-4b07-898b-18627879b58c/page/oHe4D" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+        <iframe width="400" height="250" src="https://lookerstudio.google.com/embed/reporting/b14fa250-6aa7-4393-bc34-2689f755a85e/page/QJe4D" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+      </div>
+      <p>This is a bar chart comparing those who reoffended (committed another crime after the assessment) and those who didn't, separated by their risk score. A decile score from 1-4 is low risk, from 5-6 is medium risk, and from 7-10 is high risk. Overall, this AI was accurate about 70.68% of the time (excluding people labeled as medium risk). However, almost half of the people labeled as a high risk don't actually go on to commit another crime.</p>
+    </div>
+    <br>
+    <h4>Conclusion: Analyzing Bias in AI Risk Assessments</h4>
+    <p class = 'bottom'>
+      The analysis of COMPAS risk assessment scores reveals the significant racial disparities in how AI evaluates the risk of crime among different racial groups. The graphs and charts demonstrate that African American individuals are disproportionately rated as higher risk compared to their Caucasian counterparts.
+<br>
+      The data shows a clear trend: the AI system tends to rate African Americans at higher risk levels more often than white defendants. For instance, only 10.7% of Caucasians in this study were determined to be high risk, of which the AI only accurately determined half of, despite the fact that 29% of Caucasians in this study went on to commit more crime. 28% of African Americans are labeled as high risk which is more than double that of Caucasians, even though ~10% more African African Americans in this study reoffended.
+<br>
+      This inconsistency raises concerns about the fairness and accuracy of AI in criminal justice, particularly its impact on African American defendants who may face harsher pretrial and sentencing conditions due to inflated risk scores.
+<br>
+      The findings underscore the necessity for policymakers and engineers to address these ethical concerns. To ensure equity in the criminal justice system, it is crucial to develop AI systems that are transparent, unbiased, and subject to rigorous scrutiny. By doing so, we can mitigate the risk of perpetuating systemic discrimination and work towards a more just and fair legal process for all individuals.
+    </p>
+</body>
+
+</html>
